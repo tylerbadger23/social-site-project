@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.first-box {
+    padding-top: 50px;
+}
+
+.form-container label {
+    font-size: 22px;
+    color: darkorange;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.form-container input[type='password'],
+.form-container input[type='text'], 
+.form-container input[type='email'] {
+    padding: 10px 10px 10px 7px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid #333;
+    width: 100%;
+}
+
+
+.form-container input[type='submit'] {
+    padding: 10px 10px 10px 7px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid #333;
+    width: 30%;
+}
+
+
+.form-section h1 {
+    padding: 70px 0 0 0;
+    text-align: center;
+
+    color: darkorange;
+    font-size: 45px;
+}
+
+.box-container {
+    width: 70%;
+    padding: 20px 0 0 0;
+    margin: 0 auto;
+}
+
+.box-container input:focus{
+    outline: none;
+}
+
+.error-message {
+    margin-top: 10px;
+    color: crimson;
+    font-size: 20px;
+}
+
+.register-form label {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.register-form input:focus {
+    outline: 0;
+}
+
+.error-message-register {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: crimson;
+    font-size: 20px;
+}
+
+.register-form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+input[name='register_button'] {
+    margin-top: 30px;
+    color: darkorange;
+}
+
+input[name='login_button'] {
+    margin-top: 10px;
+    color: darkorange;
+}
